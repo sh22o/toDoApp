@@ -1,0 +1,23 @@
+
+body{
+    background-color: #0081C9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+button{
+    right:0; 
+    top:0; 
+} 
+.tasks ul li { 
+   
+    padding: 5px ; 
+    border-radius: 0.5rem; 
+    
+
+}  
+.inputBtns{
+    padding: 5px 10px; 
+    background-color:#0081C9; 
+    border: none; 
+    color: white; 
+
+}

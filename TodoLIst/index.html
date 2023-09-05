@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>  
+    <div class="container">
+        <header class="text-center text-white py-5">
+            <h1>To Do List</h1> 
+         </header>  
+         <div class="AddTasks position-relative w-75 m-auto">
+            <input  class=" form-control " type="text" placeholder="Add new task " id="addInput">
+            <button id="AddBTn" class="btn btn-info text-white  position-absolute ">Add</button>
+         </div> 
+            
+
+         <!-- dynamic tasks elment -->
+         <div class="tasks m-auto  py-5 " id="TODoTask">  
+           
+            
+             
+                    
+
+    
+    
+            </div> 
+
+            <!-- footer --> 
+            <footer>
+                <span>You have <span id="pendingTasks"></span> pending tasks</span>
+      <button id="clearBtn">Clear All</button>
+            </footer> 
+
+   
+    </div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+</html>
